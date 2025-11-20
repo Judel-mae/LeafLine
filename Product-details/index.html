@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" href="../shared/images/common/SAMPLE LOGO FOR NOW.png">
+</head>
+<body>
+  <header class="header">
+    <a href="../Homepage/index.html" class="logo-link" aria-label="Go to Home Page">
+      <div class="logo">
+        <img src="../shared/images/common/SAMPLE LOGO FOR NOW.png" alt="Company Logo">
+      </div>
+    </a>
+    <div class="navigation">
+      <a href="../Homepage/index.html" class="nav-link">Homepage</a>
+      <span> / </span> 
+      <a href="../Products/index.html" class="nav-link">Products</a>
+      <span> / </span>
+      <span id="product-breadcrumb">Product</span>
+    </div>
+    <a href="../Cart/index.html" style="text-decoration: none; color: white;">
+      <div class="cart-link" style="display: flex; align-items: center; gap: 5px; padding: 8px 12px; background: #4CAF50; border-radius: 5px; cursor: pointer;">
+        <span style="font-size: 16px;">🛒</span>
+        <span id="cart-count-details" style="font-weight: bold;">0</span>
+      </div>
+    </a>
+  </header>
+
+  <main id="details-container" class="details-container">
+    <!-- JS will fill this -->
+  </main>
+
+  <script src="item-details.js"></script>
+</body>
+</html>

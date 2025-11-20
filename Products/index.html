@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" href="../shared/images/common/SAMPLE LOGO FOR NOW.png">
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="../Homepage/index.html" class="logo-link" aria-label="Go to Home Page">
+      <div class="logo">
+        <img src="../shared/images/common/SAMPLE LOGO FOR NOW.png" alt="Company Logo">
+      </div>
+    </a>
+    <div class="navigation">
+      <a href="../Homepage/index.html" class="nav-link">Homepage</a>
+      <span> / </span>
+      <span id="product-breadcrumb">Products</span>
+    </div>
+    <a href="../Cart/index.html" style="text-decoration: none; color: white;">
+      <div class="cart-link" style="display: flex; align-items: center; gap: 5px; padding: 8px 12px; background: #4CAF50; border-radius: 5px; cursor: pointer;">
+        <span style="font-size: 16px;">🛒</span>
+        <span id="cart-count" style="font-weight: bold;">0</span>
+      </div>
+    </a>
+  </header>
+
+  <div class="main-container">
+    <aside class="sidebar">
+      <h3>Search Filter</h3>
+      <div class="filter-group">
+        <input type="checkbox" id="filter1"> <label for="filter1">Oral Care</label>
+      </div>
+      <div class="filter-group">
+        <input type="checkbox" id="filter2"> <label for="filter2">Kitchen</label>
+      </div>
+      <div class="filter-group">
+        <input type="checkbox" id="filter3"> <label for="filter3">Bath</label>
+      </div>
+      <div class="filter-group">
+        <input type="checkbox" id="filter4"> <label for="filter4">Cleaning</label>
+      </div>
+
+      <div class="price-range">
+        <div class="price-inputs">
+          <p class="money-sign">₱</p>
+          <input type="number" placeholder="Min" value="">
+          <input type="number" placeholder="Max" value="">
+        </div>
+      </div>
+
+      <button class="apply-btn">Apply</button>
+    </aside>
+
+    <main class="content-area">
+    </main>
+  </div>
+  <script src="filter.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

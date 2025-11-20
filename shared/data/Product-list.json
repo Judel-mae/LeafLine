@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bamboo toothbrush",
+      "description": "Eco-friendly bamboo toothbrush with biodegradable handle and soft bristles for gentle, sustainable oral care.",
+      "price": 37.45,
+      "imageUrl": "../shared/images/products/Bamboo toothbrush.png",
+      "category": "Oral Care",
+      "stock": 1
+    },
+    {
+      "id": 2,
+      "name": "Bamboo Utensil Set",
+      "description": "Reusable bamboo utensil set with fork, knife, spoon, chopsticks, and travel pouch for eco-friendly dining.",
+      "price": 12.99,
+      "imageUrl": "../shared/images/products/Bamboo utensil.png",
+      "category": "Kitchen",
+      "stock": 4
+    },
+    {
+      "id": 3,
+      "name": "Food wraps",
+      "description": "Reusable food wraps made from organic cotton and beeswax, keeping food fresh without single-use plastic.",
+      "price": 25.75,
+      "imageUrl": "../shared/images/products/Food wraps.png",
+      "category": "Kitchen",
+      "stock": 6
+    },
+    {
+      "id": 4,
+      "name": "Loofah sponge",
+      "description": "Natural loofah sponge for gentle exfoliation and eco-friendly bathing.",
+      "price": 8.50,
+      "imageUrl": "../shared/images/products/Loofah sponge.png",
+      "category": "Bath",
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "name": "Metal straw set",
+      "description": "Set of reusable metal straws with cleaning brush, perfect for eco-friendly drinking.",
+      "price": 44.20,
+      "imageUrl": "../shared/images/products/Metal straws.png",
+      "category": "Kitchen",
+      "stock": 7
+    },
+    {
+      "id": 6,
+      "name": "Organic soap bars",
+      "description": "Natural organic soap bars made with essential oils and moisturizing ingredients for gentle, eco-friendly cleansing.",
+      "price": 19.35,
+      "imageUrl": "../shared/images/products/Organic soaps.png",
+      "category": "Bath",
+      "stock": 2
+    },
+    {
+      "id": 7,
+      "name": "Produce bags",
+      "description": "Reusable cotton mesh produce bags for sustainable fruit and vegetable storage.",
+      "price": 6.25,
+      "imageUrl": "../shared/images/products/Produce bags.png",
+      "category": "Kitchen",
+      "stock": 1
+    },
+    {
+      "id": 8,
+      "name": "Reusable bottle",
+      "description": "Durable reusable bottle made from stainless steel, perfect for staying hydrated while reducing single-use plastic waste.",
+      "price": 50.00,
+      "imageUrl": "../shared/images/products/Reusable bottle.png",
+      "category": "Kitchen",
+      "stock": 8
+    },
+    {
+      "id": 9,
+      "name": "Tote bag",
+      "description": "Reusable tote bag made from organic cotton, perfect for carrying groceries and reducing plastic bag use.",
+      "price": 27.80,
+      "imageUrl": "../shared/images/products/Tote bag.png",
+      "category": "Kitchen",
+      "stock": 9
+    },
+    {
+      "id": 10,
+      "name": "Shampoo bar",
+      "description": "Solid shampoo bar made with natural ingredients, providing an eco-friendly alternative to liquid shampoo bottles.",
+      "price": 14.60,
+      "imageUrl": "../shared/images/products/Shampoo bar.png",
+      "category": "Bath",
+      "stock": 4
+    },
+    {
+      "id": 11,
+      "name": "Fiber cleaning brush",
+      "description": "Durable fiber cleaning brush with natural bristles and ergonomic handle for effective, eco-friendly scrubbing.",
+      "price": 32.15,
+      "imageUrl": "../shared/images/products/Fiber cleaning brush.png",
+      "category": "Cleaning",
+      "stock": 6
+    },
+    {
+      "id": 12,
+      "name": "Reusable coffee cup",
+      "description": "Reusable coffee cup made from stainless steel with a spill-proof lid, perfect for eco-friendly coffee on the go.",
+      "price": 21.99,
+      "imageUrl": "../shared/images/products/Reusable Coffee cup.png",
+      "category": "Kitchen",
+      "stock": 9
+    },
+    {
+      "id": 13,
+      "name": "Laundry detergent",
+      "description": "Eco-friendly laundry detergent with plant-based formula for powerful cleaning and gentle fabric care.",
+      "price": 5.99,
+      "imageUrl": "../shared/images/products/laundry detergent.png",
+      "category": "Cleaning",
+      "stock": 6
+    },
+    {
+      "id": 14,
+      "name": "Reusable cotton rounds",
+      "description": "Reusable cotton rounds made from organic materials, perfect for gentle cleansing and makeup removal.",
+      "price": 3.99,
+      "imageUrl": "../shared/images/products/Reusable cotton rounds.png",
+      "category": "Bath",
+      "stock": 5
+    },
+    {
+      "id": 15,
+      "name": "Bamboo toilet paper",
+      "description": "Eco-friendly bamboo toilet paper, soft and sustainable alternative to traditional toilet paper.",
+      "price": 1.99,
+      "imageUrl": "../shared/images/products/Bamboo toilet paper.png",
+      "category": "Bath",
+      "stock": 10
+    }
+  ]
+}

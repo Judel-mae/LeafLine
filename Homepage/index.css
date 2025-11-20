@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f2d23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-image: url("../shared/images/common/Homepage Background new w opacity.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-wrapper {
+    text-align: center;
+    width: 100%;
+    max-width: none;
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    color: #2e7d32;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.button-spacer {
+    margin-top: 1.875rem;
+}
+
+/* Base button style */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: 2px solid #388e3c;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover effect: glow + shift */
+.btn:hover {
+    background-color: #66bb6a;
+    border-color: #2e7d32;
+    box-shadow: 0 0 0.75rem #81c784, 0 0 1.25rem #a5d6a7;
+    transform: translateY(-2px);
+}
+
+.logo {
+    display: block;
+    border-radius: 0.625rem;
+    padding: 0.625rem 1.25rem;
+    margin: 0 auto 1.25rem;
+    max-width: 12.5rem;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.Logo-text { 
+    text-align: center;
+    margin-top: 0.5rem; /* Space between logo image and text */
+}
+
+.Logo-text h2 {
+    font-family: 'Georgia', serif; 
+    font-size: 1.8rem;
+    color: #2e7d32; 
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.Logo-text p {
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #66bb6a;
+    margin: 0.25rem 0 0;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
