@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     
-    background-image: url("../shared/images/common/Homepage Background new w opacity.png");
+    background-image: url("./shared/images/common/Homepage Background new w opacity.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
